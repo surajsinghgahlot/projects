@@ -5,7 +5,7 @@
 1. Client had a well establised product running on Azure apps service as backend and VM as frontend. <br/>
 2. The frontend was created in ReactJS and Backend was created DotNet. <br/>
 3. They want to have a solution which can run both AWS and Azure with Multi-tenant architecture. <br/>
-    For example the wesite can run on
+    For example the wesite can run on <br/>
         https://*.dev.mandatlyonline.net
 
 ## Website:
@@ -14,7 +14,7 @@
 ### Used Apps:
 1. Amazon EKS, where backend api i.e DotNet is deployed. <br/>
 2. Amazon S3 where reactjs was deployed to host a static website. <br/>
-3. Amazon ECR to store the container images.
+3. Amazon ECR to store the container images. <br/>
 4. Amazon CloudFront for path based routing. <br/>
 5. Amazon Certificate Manager for SSL. <br/>
 
@@ -24,8 +24,8 @@
                     b. It gives you the advantage of all the performance like scale, reliability, and availability of AWS infrastructure, as well as integrations with AWS networking & security services <br/>
 
 2. **Amazon S3**: <br/>
-                     a. It is an object storage service, which main purpose is to store the static objects like photo etc.
-                     b. It also give the advantage to host the static website.
+                     a. It is an object storage service, which main purpose is to store the static objects like photo etc. <br/>
+                     b. It also give the advantage to host the static website. <br/>
 
 3. **AWS ECR**: <br/>
             a. It is a fully managed container registry where you can save deploy application images and artifacts. <br/>
