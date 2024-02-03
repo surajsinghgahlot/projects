@@ -1,3 +1,6 @@
+### Infra Diagram:
+![Screenshot](arch.png)
+
 ### Description:
 1. It's a simple project where we helped the client to host their python app on AWS. <br/>
 2. The current dev infra was on EC2 and their performing everything manually, like deploying new code installing new plugings etc.  <br/>
