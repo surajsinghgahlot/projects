@@ -7,7 +7,7 @@
 3. One account will host dev env & another will host the production env. <br/>
 4. They also want to automate the whole process with CD so that apps will deploy on server with a git push on dev & git merge on prod. <br/>
 
-### Website:
+### Website: 
 ```
     platform.herd-itt.com
     platform-dev.herd-itt.com
@@ -20,19 +20,19 @@
 4. Github to manage codebase. <br/>
 
 ### Apps Into:
-1. **AWS EC2 fargate**: <br/>
+1. **AWS EC2 fargate**:
                     a. It helps you to run your containers without having to manage servers or clusters of Amazon EC2 instances. <br/>
                     b. You no longer have to provision, configure, or scale clusters of virtual machines <br/>
 
-2. **Amazon CodePipeline**: <br/>
+2. **Amazon CodePipeline**:
                      a. It isa  fully managed CD service that helps to automate the release pipelines for fast & reliable application & infrastructure updates with new codebase. <br/>
                      b. It can intregrate with any version control system like github, codecommit etc. <br/>
                      c. It composite of two steps i.e codebuild and codedeploy and together it is called codepipeline. <br/>
 
-3. **AWS ECR**: <br/>
+3. **AWS ECR**:
             a. It is a fully managed container registry where you can save application docker images and its artifacts. <br/>
 
-4. **Github**: <br/>
+4. **Github**:
             a. It is a developer platform that allows developers to create, store, manage and share their codes. <br/>
             b. It also help developer to manage the different versions(history) of code. <br/>
 
