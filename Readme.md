@@ -1,6 +1,6 @@
 ### Description:
 1. Client's want to have small medicale platform app where he want to manage his user through basic SSO platform. <br />
-2. He also want to send email to register email's address during: <br />
+2. He also want to send email to user's registered email's address during: <br />
     a. Signup. <br />
     b. Sign. <br />
     c. Can reset password. <br />
