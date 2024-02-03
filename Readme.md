@@ -15,20 +15,20 @@
 4. Amazon Lambda function to send emails.
 
 ### Apps Into:
-1. **AWS Amplify**:
+1. **AWS Amplify**: <br />
                     a. This is everything you need to build full-stack web UI & mobile apps. <br />
                     b. It comes with inbuild URL, just like AWS cloudfront & S3 have, to host your apps. <br />
 
-2. **Amazon Cognito**:
+2. **Amazon Cognito**: <br />
                      a. The service helps you implement customer identity & access management into web & mobile applications. <br />
                      b. You can quickly & user authentication & access control to your applications in minutes. <br />
                      c. It is fully AWS managed apps so it comes with scalelibilty. <br />
                      d. It help you to trigger another AWS application like lambda, SES etc. <br />
 
-3. **Amazon SES**:
+3. **Amazon SES**: <br />
                     It is a cloud-based email service provider that can integrate into any application for high volume email automation.
 
-4. **Amazon Lambda function**:
+4. **Amazon Lambda function**: <br />
                     It is a compute service & serverless applications that runs your code in response to events & it automatically manages the compute resources.
 
 ### Solution:
