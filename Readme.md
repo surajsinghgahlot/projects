@@ -1,5 +1,5 @@
 ## Infra Diagram:
-![Alt text](../arch.jpg?raw=true "Title")
+![Screenshot](arch.png)
 
 ### Description:
 1. It's a simple project where we helped the client to host their python app on AWS. <br/>
