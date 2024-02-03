@@ -29,13 +29,13 @@
                     It is a compute service & serverless applications that runs your code in response to events & it automatically manages the compute resources.
 
 ### Solution:
-    1. We created a UI with reactjs and hosted it into the amplify.
-    2. We created 3 random URL to call each process of cognito
-        a Login.
-        b Signup.
-        c Reset password.
-    3. Whenever a new user comes to website it for signup, it clicks on sinup button.
-    4. By clicking on  SINGUP URL, our reacts code hits cognito URL which helps users to create their identity.
-    5. Once user create it's identity, cognito automatically trigger the lambda to send welcome email by using SES email.
-    6. The lambda have the email templates loaded with client's website details.
-    7. Same method we implemented for rest of the 2 use cases.
+1. We created a UI with reactjs and hosted it into the amplify.
+2. We created 3 random URL to call each process of cognito
+    a Login.
+    b Signup.
+    c Reset password.
+3. Whenever a new user comes to website it for signup, it clicks on sinup button.
+4. By clicking on  SINGUP URL, our reacts code hits cognito URL which helps users to create their identity.
+5. Once user create it's identity, cognito automatically trigger the lambda to send welcome email by using SES email.
+6. The lambda have the email templates loaded with client's website details.
+7. Same method we implemented for rest of the 2 use cases.
