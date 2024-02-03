@@ -23,10 +23,10 @@
                     b. It also help developer to manage the different versions(history) of code. <br/>
 
 ### Solution:
-1. Openremote is a open sources and they guys already build their application to run on container. <br/>
-2. We used the same container to run the apps on the fargate(EC2). <br/>
-3. But we also modify the Dockerfile so that their will also compile with container. <br/>
-4. We created 2 branch in the repo one for dev and one for prod. <br/>
+1. Openremote is a open sources and they guys already build their application to run on container.
+2. We used the same container to run the apps on the fargate(EC2).
+3. But we also modify the Dockerfile so that their will also compile with container. 
+4. We created 2 branch in the repo one for dev and one for prod.
 5. 
 
 3. Whenever a new user comes to website it for signup, it clicks on sinup button.
