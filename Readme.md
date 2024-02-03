@@ -20,16 +20,16 @@
                     b. It comes with inbuild URL, just like AWS cloudfront & S3 have, to host your apps.
 
 2. **Amazon Cognito**: <br />
-                     a. The service helps you implement customer identity & access management into web & mobile applications. <br />
-                     b. You can quickly & user authentication & access control to your applications in minutes. <br />
-                     c. It is fully AWS managed apps so it comes with scalelibilty. <br />
-                     d. It help you to trigger another AWS application like lambda, SES etc.
+                    a. The service helps you implement customer identity & access management into web & mobile applications. <br />
+                    b. You can quickly & user authentication & access control to your applications in minutes. <br />
+                    c. It is fully AWS managed apps so it comes with scalelibilty. <br />
+                    d. It help you to trigger another AWS application like lambda, SES etc.
 
 3. **Amazon SES**: <br />
-                    It is a cloud-based email service provider that can integrate into any application for high volume email automation.
+                    a. It is a cloud-based email service provider that can integrate into any application for high volume email automation.
 
 4. **Amazon Lambda function**: <br />
-                    It is a compute service & serverless applications that runs your code in response to events & it automatically manages the compute resources.
+                    a. It is a compute service & serverless applications that runs your code in response to events & it automatically manages the compute resources.
 
 ### Solution:
 1. We created a UI with reactjs and hosted it into the amplify.
