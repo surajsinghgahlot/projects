@@ -1,3 +1,6 @@
+### Infra Diagram:
+![Screenshot](arch.png)
+
 ### Description:
 1. Client was using a IOT platform know as openremote(https://github.com/openremote/openremote). <br/>
 2. They want to host the openremote after adding their some custom plugin on a server on 2 different AWS account. <br/>
