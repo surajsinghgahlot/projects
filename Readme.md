@@ -9,8 +9,8 @@
 
 ### Website: 
 ``````
-    platform.herd-itt.com
-    platform-dev.herd-itt.com
+platform.herd-itt.com
+platform-dev.herd-itt.com
 ``````
 
 ### Used Apps:
