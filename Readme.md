@@ -1,15 +1,15 @@
 ### Description:
-    Client's want to have small medicale platform app where he want to manage his user through basic SSO platform.
-    He also want to send email to register email's address during:
-        1. Signup.
-        2. Sign.
-        3. Can reset password.
+1. Client's want to have small medicale platform app where he want to manage his user through basic SSO platform. <br />
+2. He also want to send email to register email's address during: <br />
+    a. Signup. <br />
+    b. Sign. <br />
+    c. Can reset password. <br />
 
 ### Used Apps:
-    1. Amazon Amplify for UI react app. <br />
-    2. Amazon Cognito to manager user's identity. <br />
-    3. Amazon SES to manage sender's email. <br />
-    4. Amazon Lambda function to send emails. <br />
+1. Amazon Amplify for UI react app. <br />
+2. Amazon Cognito to manager user's identity. <br />
+3. Amazon SES to manage sender's email. <br />
+4. Amazon Lambda function to send emails. <br />
 
 ### Apps Into:
 1. **AWS Amplify**: <br />
