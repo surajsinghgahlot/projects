@@ -22,7 +22,7 @@
 1. **Amazon EKS**: <br/>
                     a. It s a managed Kubernetes service to run you containers.  <br/>
                     b. It gives you the advantage of all the performance like scale, reliability, and availability of AWS infrastructure, as 
-&nbsp;&nbsp;&nbsp;&nbsp;well as integrations with AWS networking & security services.
+                        well as integrations with AWS networking & security services.
 
 2. **Amazon S3**: <br/>
                 a. It is an object storage service, which main purpose is to store the static objects like photo etc. <br/>
