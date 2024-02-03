@@ -5,6 +5,7 @@
 1. Client had a well establised product running on Azure apps service as backend and VM as frontend. <br/>
 2. The frontend was created in ReactJS and Backend was created DotNet. <br/>
 3. They want to have a solution which can run both AWS and Azure with Multi-tenant architecture. <br/>
+4. Deploying a whole achitecture was time taking, that's why they want us to find a solution where they can deply everthing within mins. <br/>
 
 ## Website:
      https://m9999.dev.mandatlyonline.net
@@ -36,14 +37,12 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;website.com\index.html ====> frontend <br/>
 
 5. **Amazon Certificate Manager**: <br/>
-                    a. It provision, manage, & deploy public & private SSL/TLS certificates for use with AWS services.
-                    b. It removes the time-consuming manual process of purchasing, uploading, & renewing SSL/TLS certificates.
+                    a. It provision, manage, & deploy public & private SSL/TLS certificates for use with AWS services. <br/>
+                    b. It removes the time-consuming manual process of purchasing, uploading, & renewing SSL/TLS certificates. <br/>
 
 ### Solution:
-1. We find out that their fronted was static so we decided to host that on S3 backed by cloudfront to call 
-2. We used the same container to run the apps on the beanstalk.
-3. The reason to choose beanstalk instead of fargate because it is more cheeper then fargate & client's developer was his handy direty on it.
-4. We created 2 branch in the repo one for dev and one for prod and connected with codepipeline through a oath read token.
-5. The token gives access to codepipeline to pull the code, and along with dockerfile we also create a buildspec.yml & appspec.yml file.
-6. Buildspec.yml & appspec.yml is a template file which gives instruction to codebuild & codedeply about the steps you want to perform on them.
-7. Whenever developer push the code in github the codebuild build a docker image with the help of dockerfile and push it to ECR and then after codedeploy deploy the same dockerimage in beanstalk.
+1. We find out that their fronted was static so we decided to host that on S3 backed by cloudfront to call index.html. <br/>
+2. We helped them to containerized their Dotnet applications to run on Kubernetes. <br/>
+3. Nginx was used as webserver infront of Dotnet with all the path routs configure plus by using ELB the inbound/outboud traffic was established for the container. <br/>
+4. The toughest challenge was to deploy cloudfront in such a way that it can divert the traffic by path based and with custom headers. <br/>
+5. 
