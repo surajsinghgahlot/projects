@@ -26,7 +26,7 @@ Client also want to send welcome email to register email's address with user's u
 3. **Amazon SES**: <br />
                     It is a cloud-based email service provider that can integrate into any application for high volume email automation.
 
-4. **Amazon Lambda function**: <br />
+4. **Amazon Lambda function**:
                     It is a compute service & serverless applications that runs your code in response to events & it automatically manages the compute resources.
 
 ### Solution:
