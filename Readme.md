@@ -15,11 +15,10 @@ Client also want to send welcome email to register email's address with user's u
 ### Apps Into:
 1. **AWS Amplify**: <br />
                     a. This is everything you need to build full-stack web UI & mobile apps. <br />
-                    b. We hosted our react UI on here & guess what it comes with inbuild URL, just like AWS cloudfront & S3 have. <br />
-                    c. We can use the same URL as a domain or it can help you to map with cloudfront/domain . <br />
+                    b. It comes with inbuild URL, just like AWS cloudfront & S3 have, to host your apps. <br />
 
 2. **Amazon Cognito**: <br />
-                     a. The service helps you implement customer identity & access management into your web & mobile applications. <br />
+                     a. The service helps you implement customer identity & access management into web & mobile applications. <br />
                      b. You can quickly & user authentication & access control to your applications in minutes. <br />
                      c. It is fully AWS managed apps so it comes with scalelibilty.
 
