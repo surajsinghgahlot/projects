@@ -24,7 +24,7 @@ And client also want to send welcome email to register email's address with user
                      c. It is fully AWS managed apps so it comes with scalelibilty.
 
 3. **Amazon SES**: <br />
-                    a. It is a cloud-based email service provider that can integrate into any application for high volume email automation.
+                    It is a cloud-based email service provider that can integrate into any application for high volume email automation.
 
 4. **Amazon Lambda function**: <br />
-                    a. It is a compute service & serverless applications that runs your code in response to events and it automatically manages the compute resources.
+                    It is a compute service & serverless applications that runs your code in response to events and it automatically manages the compute resources.
