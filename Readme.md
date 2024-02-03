@@ -9,31 +9,31 @@
     c. Can reset password. <br />
 
 ### Used Apps:
-1. Amazon Amplify for UI react app. <br />
-2. Amazon Cognito to manager user's identity. <br />
+1. Amazon Amplify for UI react app.
+2. Amazon Cognito to manager user's identity.
 3. Amazon SES to manage sender's email. <br />
 4. Amazon Lambda function to send emails. <br />
 
 ### Apps Into:
-1. **AWS Amplify**: <br />
-                    a. This is everything you need to build full-stack web UI & mobile apps. <br />
-                    b. It comes with inbuild URL, just like AWS cloudfront & S3 have, to host your apps. <br />
+1. **AWS Amplify**:
+                    a. This is everything you need to build full-stack web UI & mobile apps.
+                    b. It comes with inbuild URL, just like AWS cloudfront & S3 have, to host your apps.
 
-2. **Amazon Cognito**: <br />
-                     a. The service helps you implement customer identity & access management into web & mobile applications. <br />
-                     b. You can quickly & user authentication & access control to your applications in minutes. <br />
+2. **Amazon Cognito**:
+                     a. The service helps you implement customer identity & access management into web & mobile applications.
+                     b. You can quickly & user authentication & access control to your applications in minutes.
                      c. It is fully AWS managed apps so it comes with scalelibilty.
                      d. It help you to trigger another AWS application like lambda, SES etc.
 
-3. **Amazon SES**: <br />
+3. **Amazon SES**:
                     It is a cloud-based email service provider that can integrate into any application for high volume email automation.
 
-4. **Amazon Lambda function**: <br />
+4. **Amazon Lambda function**:
                     It is a compute service & serverless applications that runs your code in response to events & it automatically manages the compute resources.
 
 ### Solution:
 1. We created a UI with reactjs and hosted it into the amplify.
-2. We created 3 random URL to call each process of cognito
+2. We created 3 random URL to call each process of cognito.
     a Login.
     b Signup.
     c Reset password.
