@@ -27,10 +27,10 @@
                     b. It also help developer to manage the different versions(history) of code. <br/>
 
 ### Solution:
-1. Client was a backend develper and he 
-2. We used the same container to run the apps on the fargate(EC2).
-3. But we also modify the Dockerfile so that their will also compile with container.
+1. We helped them to containerize their application and the image is saved in ECR.
+2. We used the same container to run the apps on the beanstalk.
+3. The reason to choose beanstalk instead of fargate because it is more cheeper then fargate & client's developer was his handy direty on it.
 4. We created 2 branch in the repo one for dev and one for prod and connected with codepipeline through a oath read token.
-5. The token gives access to codepipeline to pull the code, and along with dockerfile we also create a buildspec.yml & appspec.yml file
+5. The token gives access to codepipeline to pull the code, and along with dockerfile we also create a buildspec.yml & appspec.yml file.
 6. Buildspec.yml & appspec.yml is a template file which gives instruction to codebuild & codedeply about the steps you want to perform on them.
-7. Whenever developer push the code in github the codebuild build a docker with the help of dockerfile and push it to ECR and then after codedeploy deploy the same dockerimage in fargate.
+7. Whenever developer push the code in github the codebuild build a docker image with the help of dockerfile and push it to ECR and then after codedeploy deploy the same dockerimage in beanstalk.
