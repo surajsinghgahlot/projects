@@ -13,5 +13,5 @@ And client also want to send welcome email to register email's address with user
 4. Amazon Lambda function to send emails. <br />
 
 ### Solutions Into:
-1. **AWS Amplify**: Amplify is everything you need to build full-stack reactjs web UI and mobile apps. <br />
-                xcfdf
+1. *AWS Amplify*: Amplify is everything you need to build full-stack reactjs web UI and mobile apps. <br />
+                     xcfdf
