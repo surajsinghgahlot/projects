@@ -31,13 +31,18 @@
 4. **Amazon CloudFront**: <br/>
                     a. It is a is a content delivery network (CDN) service built for high performance, security. <br/>
                     b. It works like a loadbalancer which help to route your traffic according to your convenience in all regions. <br/>
+                    c. It also works with path based routing for example:
+                        ``````
+                        website.com\api ====> backend
+                        website.com\index.html ====> frontend
+                        ``````
 
 5. **Amazon Certificate Manager**: <br/>
                     a. It provision, manage, & deploy public & private SSL/TLS certificates for use with AWS services.
                     b. It removes the time-consuming manual process of purchasing, uploading, & renewing SSL/TLS certificates.
 
 ### Solution:
-1. We helped them to containerize their application and the image is saved in ECR.
+1. We find out that their fronted was static so we decided to host that on S3 backed by cloudfront to call 
 2. We used the same container to run the apps on the beanstalk.
 3. The reason to choose beanstalk instead of fargate because it is more cheeper then fargate & client's developer was his handy direty on it.
 4. We created 2 branch in the repo one for dev and one for prod and connected with codepipeline through a oath read token.
