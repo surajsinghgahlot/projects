@@ -13,7 +13,8 @@ And client also want to send welcome email to register email's address with user
 4. Amazon Lambda function to send emails. <br />
 
 ### Solutions Into:
-1. **AWS Amplify**: This is everything you need to build full-stack web UI and mobile apps. <br />
+1. **AWS Amplify**: 
+                    This is everything you need to build full-stack web UI and mobile apps. <br />
                     We hosted our react UI on here and guess what it comes with inbuild URL, just like AWS cloudfront and S3 have. <br />
                     We can use the same URL as a domain or it can help you to map with cloudfront/domain . <br />
 
