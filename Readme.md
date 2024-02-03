@@ -32,8 +32,8 @@
                     a. It is a is a content delivery network (CDN) service built for high performance, security. <br/>
                     b. It works like a loadbalancer which help to route your traffic according to your convenience in all regions. <br/>
                     c. It also works with path based routing for example: <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;website.com\api ====> backend <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;website.com\index.html ====> frontend <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;website.com\api ====> backend <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;website.com\index.html ====> frontend <br/>
 
 5. **Amazon Certificate Manager**: <br/>
                     a. It provision, manage, & deploy public & private SSL/TLS certificates for use with AWS services.
