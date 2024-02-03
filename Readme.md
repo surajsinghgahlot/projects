@@ -5,8 +5,6 @@
 1. Client had a well establised product running on Azure apps service as backend and VM as frontend. <br/>
 2. The frontend was created in ReactJS and Backend was created DotNet. <br/>
 3. They want to have a solution which can run both AWS and Azure with Multi-tenant architecture. <br/>
-    For example the wesite can run on <br/>
-        https://*.dev.mandatlyonline.net
 
 ## Website:
      https://m9999.dev.mandatlyonline.net
