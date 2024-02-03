@@ -31,7 +31,7 @@
 4. **Amazon CloudFront**: <br/>
                     a. It is a is a content delivery network (CDN) service built for high performance, security. <br/>
                     b. It works like a loadbalancer which help to route your traffic according to your convenience in all regions. <br/>
-                    c. It also works with path based routing for example:
+                    c. It also works with path based routing for example: <br/>
                         ``````
                         website.com\api ====> backend
                         website.com\index.html ====> frontend
