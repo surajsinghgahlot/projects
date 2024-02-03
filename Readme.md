@@ -2,32 +2,41 @@
 ![Screenshot](arch.png)
 
 ### Description:
-1. It's a simple project where we helped the client to host their python app on AWS. <br/>
-2. The current dev infra was on EC2 and their performing everything manually, like deploying new code installing new plugings etc.  <br/>
-3. They are now ready to move to prod for which they want a reliable solutions, along with they want automate the whole process with CI/CD so that apps will deploy on server with a git push. <br/>
+1. Client had a well establised product running on Azure apps service as backend and VM as frontend. <br/>
+2. The frontend was created in ReactJS and Backend was created DotNet. <br/>
+3. They want to have a solution which can run both AWS and Azure with Multi-tenant architecture. <br/>
+    For example the wesite can run on
+        https://*.dev.mandatlyonline.net
+
+## Website:
+     https://m9999.dev.mandatlyonline.net
 
 ### Used Apps:
-1. Amazon EC2 ElasticBeanstalk to deploy apps. <br/>
-2. Amazon CodePipeline for CD. <br/>
-3. Amazon ECR to save dockerimage. <br/>
-4. Github to manage codebase. <br/>
+1. Amazon EKS, where backend api i.e DotNet is deployed. <br/>
+2. Amazon S3 where reactjs was deployed to host a static website. <br/>
+3. Amazon ECR to store the container images.
+4. Amazon CloudFront for path based routing. <br/>
+5. Amazon Certificate Manager for SSL. <br/>
 
 ### Apps Into:
-1. **AWS EC2 ElasticBeanstalk**: <br/>
-                    a. It is a service for deploying & scaling web applications. <br/>
-                    b. It automatically handles the deployment—from capacity provisioning, load balancing, and auto scaling to application health monitoring. <br/>
+1. **Amazon EKS**: <br/>
+                    a. It s a managed Kubernetes service to run you containers.  <br/>
+                    b. It gives you the advantage of all the performance like scale, reliability, and availability of AWS infrastructure, as well as integrations with AWS networking & security services <br/>
 
-2. **Amazon CodePipeline**: <br/>
-                     a. It isa  fully managed CD service that helps to automate the release pipelines for fast & reliable application & infrastructure updates with new codebase. <br/>
-                     b. It can intregrate with any version control system like github, codecommit etc. <br/>
-                     c. It composite of two steps i.e codebuild and codedeploy and together it is called codepipeline. <br/>
+2. **Amazon S3**: <br/>
+                     a. It is an object storage service, which main purpose is to store the static objects like photo etc.
+                     b. It also give the advantage to host the static website.
 
-1. **AWS ECR**: <br/>
+3. **AWS ECR**: <br/>
             a. It is a fully managed container registry where you can save deploy application images and artifacts. <br/>
 
-3. **Github**: <br/>
-                    a. It is a developer platform that allows developers to create, store, manage and share their codes. <br/>
-                    b. It also help developer to manage the different versions(history) of code. <br/>
+4. **Amazon CloudFront**: <br/>
+                    a. It is a is a content delivery network (CDN) service built for high performance, security. <br/>
+                    b. It works like a loadbalancer which help to route your traffic according to your convenience in all regions. <br/>
+
+5. **Amazon Certificate Manager**: <br/>
+                    a. It provision, manage, & deploy public & private SSL/TLS certificates for use with AWS services.
+                    b. It removes the time-consuming manual process of purchasing, uploading, & renewing SSL/TLS certificates.
 
 ### Solution:
 1. We helped them to containerize their application and the image is saved in ECR.
