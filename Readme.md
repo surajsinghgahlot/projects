@@ -1,3 +1,6 @@
+### Infra Diagram:
+![Screenshot](arch.png)
+
 ### Description:
 1. Client's want to have small medicale platform app where he want to manage his user through basic SSO platform. <br />
 2. He also want to send email to user's registered email's address during: <br />
