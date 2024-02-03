@@ -2,7 +2,7 @@
 ![Screenshot](arch.png)
 
 ### Description:
-1. Client had a well establised product running on Azure apps service as backend and VM as frontend. <br/>
+1. Client had a establised product running on Azure apps service as backend & VM as frontend, where the users info are stored in database.<br/>
 2. The frontend was created in ReactJS and Backend was created DotNet. <br/>
 3. They want to have a solution which can run both AWS and Azure with Multi-tenant architecture. <br/>
 4. Deploying a whole achitecture was time taking, that's why they want us to find a solution where they can deply everthing within mins. <br/>
@@ -13,9 +13,10 @@
 ### Used Apps:
 1. Amazon EKS, where backend api i.e DotNet is deployed. <br/>
 2. Amazon S3 where reactjs was deployed to host a static website. <br/>
-3. Amazon ECR to store the container images. <br/>
-4. Amazon CloudFront for path based routing. <br/>
-5. Amazon Certificate Manager for SSL. <br/>
+3. Amazon RDS to store info of users. <br/>
+4. Amazon ECR to store the container images. <br/>
+5. Amazon CloudFront for path based routing. <br/>
+6. Amazon Certificate Manager for SSL. <br/>
 
 ### Apps Into:
 1. **Amazon EKS**: <br/>
@@ -41,8 +42,8 @@
                     b. It removes the time-consuming manual process of purchasing, uploading, & renewing SSL/TLS certificates. <br/>
 
 ### Solution:
-1. We find out that their fronted was static so we decided to host that on S3 backed by cloudfront to call index.html. <br/>
+1. We find out that their fronted was static so we decided to host that on S3 backed by cloudfront to call index.html <br/>
 2. We helped them to containerized their Dotnet applications to run on Kubernetes. <br/>
 3. Nginx was used as webserver infront of Dotnet with all the path routs configure plus by using ELB the inbound/outboud traffic was established for the container. <br/>
-4. The toughest challenge was to deploy cloudfront in such a way that it can divert the traffic by path based and with custom headers. <br/>
-5. 
+4. The toughest challenge was to create cloudfront in such a way that it can route the traffic by path based & with custom headers. <br/>
+5. At last we created lots of terraform scripts to deploy all the application with 4-5 steps.
