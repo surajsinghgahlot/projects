@@ -33,8 +33,8 @@
                     b. It works like a loadbalancer which help to route your traffic according to your convenience in all regions. <br/>
                     c. It also works with path based routing for example: <br/>
                         ``````
-                        website.com\api ====> backend
-                        website.com\index.html ====> frontend
+                        website.com\api ====> backend <br/>
+                        website.com\index.html ====> frontend <br/>
                         ``````
 
 5. **Amazon Certificate Manager**: <br/>
