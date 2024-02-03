@@ -4,8 +4,14 @@
 ### Description:
 1. Client was using a IOT platform know as openremote(https://github.com/openremote/openremote). <br/>
 2. They want to host the openremote after adding their some custom plugin on a server on 2 different AWS account. <br/>
-3. One account will host dev env with URL(platform-dev.herd-itt.com) & another will host the production with URL(platform.herd-itt.com). <br/>
+3. One account will host dev env & another will host the production env. <br/>
 4. They also want to automate the whole process with CD so that apps will deploy on server with a git push on dev & git merge on prod. <br/>
+
+### Website:
+```
+    platform.herd-itt.com
+    platform-dev.herd-itt.com
+```
 
 ### Used Apps:
 1. Amazon EC2 fargate to deploy our server. <br/>
