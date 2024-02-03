@@ -13,9 +13,10 @@ And client also want to send welcome email to register email's address with user
 4. Amazon Lambda function to send emails. <br />
 
 ### Solutions Into:
-1. **AWS Amplify**: Amplify is everything you need to build full-stack web UI and mobile apps. <br />
-                    We hosted our react UI on amplify with buid. Amplify comes with inbuild URL, just like cloudfront and s3 have. <br />
-                    We can use the same URI to point to our domain. <br />
+1. **AWS Amplify**: This is everything you need to build full-stack web UI and mobile apps. <br />
+                    We hosted our react UI on here and guess what it comes with inbuild URL, just like AWS cloudfront and S3 have. <br />
+                    We can use the same URL as a domain or it can help you to map with cloudfront/domain . <br />
 
-2. **Amazon Cognito**: The service helps you implement customer identity and access management into your web and mobile applications. <br />
-                       You can quickly add user authentication and access control to your applications in minutes. It is fully AWS managed apps so it comes with scalelibilty.
+2. **Amazon Cognito**: a. The service helps you implement customer identity and access management into your web and mobile applications. <br />
+                       You can quickly add user authentication and access control to your applications in minutes. It is fully AWS managed apps so it comes with scalelibilty. <br />
+                       b. 
