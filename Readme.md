@@ -1,9 +1,9 @@
 ### Description:
-    Client's want to have small medicale platform app where he want to manage his user through basic SSO platform, where a user can do: <br />
-    1. Signup.
-    2. Sign.
-    3. Can reset password.
-    Client also want to send welcome email to register email's address with user's username/password, & a link to reset password. <br />
+    Client's want to have small medicale platform app where he want to manage his user through basic SSO platform.
+    He also want to send email to register email's address during:
+        1. Signup.
+        2. Sign.
+        3. Can reset password.
 
 ### Used Apps:
     1. Amazon Amplify for UI react app. <br />
