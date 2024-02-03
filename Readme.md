@@ -2,7 +2,7 @@
 ![Screenshot](arch.png)
 
 ### Description:
-1. Client's want to have small medicale platform app where he want to manage his user through basic SSO platform. <br />
+1. Client's want to have small medicale platform app where he want to manage his user through basic SSO platform.
 2. He also want to send email to user's registered email's address during: <br />
     a. Signup. <br />
     b. Sign. <br />
@@ -11,19 +11,19 @@
 ### Used Apps:
 1. Amazon Amplify for UI react app.
 2. Amazon Cognito to manager user's identity.
-3. Amazon SES to manage sender's email. <br />
-4. Amazon Lambda function to send emails. <br />
+3. Amazon SES to manage sender's email.
+4. Amazon Lambda function to send emails.
 
 ### Apps Into:
 1. **AWS Amplify**:
-                    a. This is everything you need to build full-stack web UI & mobile apps.
-                    b. It comes with inbuild URL, just like AWS cloudfront & S3 have, to host your apps.
+                    a. This is everything you need to build full-stack web UI & mobile apps. <br />
+                    b. It comes with inbuild URL, just like AWS cloudfront & S3 have, to host your apps. <br />
 
 2. **Amazon Cognito**:
-                     a. The service helps you implement customer identity & access management into web & mobile applications.
-                     b. You can quickly & user authentication & access control to your applications in minutes.
-                     c. It is fully AWS managed apps so it comes with scalelibilty.
-                     d. It help you to trigger another AWS application like lambda, SES etc.
+                     a. The service helps you implement customer identity & access management into web & mobile applications. <br />
+                     b. You can quickly & user authentication & access control to your applications in minutes. <br />
+                     c. It is fully AWS managed apps so it comes with scalelibilty. <br />
+                     d. It help you to trigger another AWS application like lambda, SES etc. <br />
 
 3. **Amazon SES**:
                     It is a cloud-based email service provider that can integrate into any application for high volume email automation.
