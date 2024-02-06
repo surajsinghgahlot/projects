@@ -64,3 +64,6 @@ https://python.zerovoltelectric.com:9000/
 4. Created helm chart for both backend and frontend.
 5. Whenever developer push the code in bitbucket the Jenkins build a docker with the help of dockerfile and push it to ECR and then after it deploy the same dockerimage in EKS.
 6. We customized the helm files as well as Jenkinsfile and by manupulating their values in runtime, we are able to use the same helm files for dev/prod deployment.
+
+
+## NOTE: WE PROVIDE THE SAME INFRA SOLUTION FOR BOTH AZURE/AWS/GCP, ONLY COMPONENT GET CHANGES
