@@ -2,10 +2,10 @@
 ![Screenshot](arch.png)
 
 ### Description:
-1. Client were have having 3 container one of each
-    a. Node-api
-    b. python-api
-    c. Node Reacts.
+1. Client were have having 3 container one of each:<br/>
+    a. Node-api.<br/>
+    b. python-api.<br/>
+    c. Node Reacts.<br/>
 2. They were ready with container and they are looking for someone who will help to deploy on farget(ecs).
 3. They were also looking to automate with only with Jenkins not with any other CD tools.
 4. Along with above all they were also looking to covert all above things to terraform script, so that they can deploy the same to their client.
