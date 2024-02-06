@@ -48,3 +48,6 @@
 3. Nginx was used as webserver infront of Dotnet with all the path routs configure plus by using ELB the inbound/outboud traffic was established for the container.
 4. The toughest challenge was to create cloudfront in such a way that it can route the traffic by path based & with custom headers.
 5. At last we created lots of terraform scripts to deploy all the application with 4-5 steps.
+
+
+## NOTE: WE PROVIDE THE SAME INFRA SOLUTION FOR BOTH AZURE/AWS/GCP, ONLY COMPONENT GET CHANGES
