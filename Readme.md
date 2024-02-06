@@ -9,9 +9,8 @@
 
 ### Website: 
 ``````
-https://api.zerovoltelectric.com/
-http://webapi.zerovoltelectric.com/
-https://python.zerovoltelectric.com:9000/
+https://dev.biskane.com
+https://biskane.com
 ``````
 
 ### Used Apps:
