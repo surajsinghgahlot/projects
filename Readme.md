@@ -1,5 +1,5 @@
 ### Infra Diagram:
-![Screenshot](arch.png)
+![Screenshot](arch.jpg)
 
 ### Description:
 1. Need to terraforming the above arch diagram.
